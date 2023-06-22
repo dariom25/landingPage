@@ -1,6 +1,7 @@
 body{
     display: flex;
     margin: 0;
+    flex-direction: column;
 }
 
 .top{
@@ -25,10 +26,11 @@ body{
 
 a{
     text-decoration: none;
-    margin: 0px 8px;
+    margin: 0;
+    margin-left: 8px;
 }
 
-a, p{
+a, .sub-title-text{
     color: #E5E7EB;
     font-size: 18px;
 }
