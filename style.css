@@ -43,6 +43,7 @@ a, .sub-title-text{
 
 .hero-text{
     flex: 1;
+    background-color: lightpink;
 }
 
 h1{
@@ -52,7 +53,7 @@ h1{
     margin: 0;
 }
 
-p{
+.hero-text > p{
     margin: 16px 0px;
 }
 
