@@ -13,7 +13,7 @@ body{
     padding: 16px 0px 64px 0px;
 }
 
-/* irgendwas stimmt hier mit dem header noch nicht, aber was?*/
+/* irgendwas stimmt hier mit dem header noch nicht, aber was? vllt das html*/
 .header{
     display: flex;
     background-color: grey;
@@ -98,6 +98,7 @@ button{
 
 .image-subtext{
     display: flex;
+    justify-content: center;
 }
 
 .image{
