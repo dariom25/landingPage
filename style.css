@@ -99,16 +99,14 @@ button{
 .image-subtext{
     display: flex;
     justify-content: center;
+    gap: 32px;
 }
 
 .image{
     border-style: solid;
     border-radius: 10px;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-color: #3882F6;
 }
 
-.subtext{
-
-}
