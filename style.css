@@ -7,17 +7,15 @@ body{
 .top{
     display: flex;
     flex-direction: column;
-    align-items: center;
     background-color: #1F2937;
     gap: 100px;
-    padding: 16px 0px 64px 0px;
+    padding: 16px 420px 64px 420px;
 }
 
 /* irgendwas stimmt hier mit dem header noch nicht, aber was? vllt das html*/
 .header{
     display: flex;
-    background-color: grey;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .header-logo{
@@ -50,7 +48,6 @@ a, .sub-title-text{
 
 .hero-text{
     flex: 1;
-    background-color: lightpink;
 }
 
 h1{
