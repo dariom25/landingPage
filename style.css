@@ -109,6 +109,10 @@ button{
     gap: 32px;
 }
 
+.image-subtext > div{
+    width: 200px;
+}
+
 /* wie kann ich hier dafür sorgen, dass der text genauso breit ist wie das bild?*/
 .image{
     border-style: solid;
