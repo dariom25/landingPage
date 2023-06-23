@@ -89,7 +89,6 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: wheat;
 }
 
 .content-header{
@@ -119,3 +118,16 @@ button{
     border-color: #3882F6;
 }
 
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: flex-end;
+
+}
+
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
