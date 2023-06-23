@@ -17,12 +17,19 @@ body{
 .header{
     display: flex;
     background-color: grey;
+    justify-content: center;
 }
 
 .header-logo{
     color: #F9FAF8;
     font-size: 24px;
     font-family: "Roboto", sans-serif;
+    display: flex;
+}
+
+.header-links{
+    display: flex;
+    align-items: center;
 }
 
 a{
@@ -102,6 +109,7 @@ button{
     gap: 32px;
 }
 
+/* wie kann ich hier dafür sorgen, dass der text genauso breit ist wie das bild?*/
 .image{
     border-style: solid;
     border-radius: 10px;
