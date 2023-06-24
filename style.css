@@ -176,3 +176,11 @@ button{
     border-style: solid;
     height: 40px;
 }
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 32px 0px;
+}
