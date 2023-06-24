@@ -33,7 +33,7 @@ body{
 a{
     text-decoration: none;
     margin: 0;
-    margin-left: 8px;
+    margin-left: 16px;
 }
 
 a, .sub-title-text{
@@ -123,11 +123,17 @@ button{
     flex-direction: column;
     background-color: #E5E7EB;
     align-items: flex-end;
-
+    margin: 64px 0px;
+    padding: 0px 480px;
 }
 
 .quote{
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
+    text-align: justify;
+}
+
+.author{
+    font-weight: bold;
 }
