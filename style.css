@@ -17,6 +17,7 @@ body{
     margin: 0 auto;
     padding: 8px;
     max-width: 960px;
+    gap: 64px;
 }
 
 /* irgendwas stimmt hier mit dem header noch nicht, aber was? vllt das html*/
@@ -35,6 +36,7 @@ body{
     display: flex;
 }
 
+/*hier könnte ich auch mit einer liste arbeiten*/
 .header-links{
     display: flex;
     align-items: center;
@@ -112,19 +114,19 @@ button{
 .image-subtext{
     display: flex;
     justify-content: center;
-    gap: 64px;
+    gap: 48px;
 }
 
 .image-subtext > div{
-    width: 200px;
+    width: 180px;
 }
 
 /* wie kann ich hier dafür sorgen, dass der text genauso breit ist wie das bild?*/
 .image{
     border-style: solid;
     border-radius: 10px;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-color: #3882F6;
 }
 
