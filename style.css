@@ -131,13 +131,18 @@ button{
     border-color: #3882F6;
 }
 
+.quote-container{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
 .quote-section{
     display: flex;
     flex-direction: column;
-    background-color: #E5E7EB;
     align-items: flex-end;
     margin: 64px 0px 0px 0px;
-    padding: 0px 480px;
+    max-width: 960px;
 }
 
 .quote{
